@@ -79,7 +79,7 @@
     .menuItems {
       display: flex;
       position: absolute;
-      top: 60px;
+      top: 70px;
       left: 0;
       background: var(--black3);
       flex-direction: column;
@@ -108,7 +108,7 @@
     height: 55px;
     background-color: white;
     position: absolute;
-    top: 60px;
+    top: 70px;
     animation: mobileMenu 0.3s ease forwards;
     .searchInput {
       display: flex;

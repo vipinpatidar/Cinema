@@ -6,8 +6,10 @@ const SwitchTab = ({ data, onTabChange }) => {
   const [selectedTab, setSelectedTab] = useState(0);
   const [left, setLeft] = useState(0);
 
+  const isMobile = window.innerWidth < 768;
+
   const activeTab = (tab, index) => {
-    setLeft(index * 100);
+    setLeft(index * (isMobile ? 95 : 100));
 
     setTimeout(() => {
       setSelectedTab(index);

@@ -54,8 +54,8 @@ const VideosSection = ({ data, isLoading }) => {
                 <img
                   src={noResult}
                   alt="noresult found"
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                 />
                 <span className="resultNotFound">{`Sorry No Video Found!`}</span>
               </div>
