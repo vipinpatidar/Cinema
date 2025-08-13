@@ -60,7 +60,7 @@ const Header = () => {
   // on scroll hide and show menu
   useEffect(() => {
     const scrollHandler = () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 10) {
         if (window.scrollY > lastScrollY && !mobileMenu) {
           setShow("hide");
         } else {

@@ -110,7 +110,7 @@ const Explore = () => {
               isMulti
               name="genres"
               value={genre}
-              closeMenuOnSelect={false}
+              closeMenuOnSelect={true}
               options={genresData?.genres}
               getOptionLabel={(option) => option.name}
               getOptionValue={(option) => option.id}

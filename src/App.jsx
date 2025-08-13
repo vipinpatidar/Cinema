@@ -42,6 +42,8 @@ function App() {
       return genres?.map((item) => (allGenres[item.id] = item));
     });
 
+    // console.log(allGenres);
+
     dispatch(getGenres(allGenres));
   };
 

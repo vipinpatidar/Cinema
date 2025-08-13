@@ -99,6 +99,12 @@
         color: white;
         cursor: pointer;
         margin-left: -4rem;
+        transition: background 0.3s ease;
+
+        &:hover {
+          background: var(--hover-gradient);
+        }
+
         @include md {
           margin-left: -6rem;
           border-radius: 30px;

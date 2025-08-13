@@ -11,9 +11,8 @@
   transition: all ease 0.5s;
   z-index: 2;
   &.top {
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(3.5px);
-    -webkit-backdrop-filter: blur(3.5px);
   }
   &.show {
     background-color: var(--black3);
@@ -44,7 +43,7 @@
       height: 60px;
       display: flex;
       align-items: center;
-      margin: 0 15px;
+      margin: 0 24px;
       color: white;
       font-weight: 500;
       position: relative;

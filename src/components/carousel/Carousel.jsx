@@ -112,7 +112,7 @@ const Carousel = ({ data, isLoading, media_type, title }) => {
                     width={100}
                     height={100}
                   />
-                  <span className="resultNotFound">{`Sorry No Recommendtions Found!`}</span>
+                  <span className="resultNotFound">{`Sorry No Recommendations Found!`}</span>
                 </div>
               </>
             )}
